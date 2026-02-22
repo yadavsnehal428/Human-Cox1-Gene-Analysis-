@@ -3,7 +3,7 @@
 
 # 1. SETUP & DATA LOADING
 # Load the essential bioinformatics library
-setwd() setwd("C:\\Users\\click\\OneDrive\\Pictures\\Desktop\\MiniProjectR")
+setwd("C:\\Users\\click\\OneDrive\\Pictures\\Desktop\\MiniProjectR")
 list.files()
 
 library(Biostrings)
@@ -84,5 +84,6 @@ if (length(orf_list) > 0) {
 # 6. SEQUENCE MANIPULATION
 # Reverse Complement of the sequence
 rev_dna <- reverseComplement(dna_seq)
+
 
 print("Analysis Complete. All plots have been saved as .png files.")
